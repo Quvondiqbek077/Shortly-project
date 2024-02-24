@@ -1,0 +1,11 @@
+@import url(./font.css);
+
+:root{
+    --dark:#34313D;
+    --icon-bg:#3A3054;
+    --search-bg:#4B3F6B;
+    --font:#9E9AA8;
+    --main-bg:#EFF1F7;
+    --aqua:#2BD0D0;
+    --poppins:"Poppins";
+}
