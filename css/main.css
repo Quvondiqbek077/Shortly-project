@@ -172,10 +172,6 @@ a {
     margin-bottom: 68px;
 }
 
-/* .position{
-    position: relative;
-} */
-
 .site-header-form {
     display: flex;
     column-gap: 24px;
@@ -266,7 +262,8 @@ a {
     column-gap: 30px;
     position: relative;
 }
-.cards-line{
+
+.cards-line {
     width: 1110px;
     height: 8px;
     background: var(--aqua);
@@ -282,12 +279,14 @@ a {
     margin-bottom: 208px;
     height: 267px;
 }
-.one{
+
+.one {
     margin-top: 144px;
 }
-.two{
+
+.two {
     margin-top: 188px;
-    
+
 }
 
 .card-img {
@@ -327,4 +326,114 @@ a {
     max-width: 286px;
     width: 100%;
 
+}
+
+/* Site-Footer */
+.site-footer {
+    width: 100%;
+    background: #3A3054;
+    margin-top: 909px;
+}
+
+.site-footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.footer-title {
+    color: #FFF;
+    text-align: center;
+    font-family: var(--poppins);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1px;
+    padding-top: 57px;
+}
+
+.f-btn {
+    margin-bottom: 57px;
+
+}
+
+.site-footer-bottom {
+    padding-top: 72px;
+    width: 100%;
+    background-color: #232127;
+    padding-bottom: 70px;
+}
+
+.footer-bottom {
+    display: flex;
+}
+
+.footer-logo {
+    width: 120.043px;
+    height: 32.674px;
+    padding-right: 261px;
+}
+
+.bottom-links {
+    display: flex;
+}
+
+.links {
+    padding-left: 110px;
+    align-items: center;
+}
+
+.w-link {
+    padding-bottom: 20px;
+}
+
+.linkb {
+    color: #FFF;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.25px;
+}
+
+.b-link {
+    padding-bottom: 10px;
+}
+
+.link-a {
+    transition: .5s;
+}
+
+.link-a:active {
+    cursor: pointer;
+    color: var(--aqua);
+}
+
+.link-a {
+    color: #BFBFBF;
+    font-family: var(--poppins);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: -0.234px;
+}
+
+
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 110px;
+    column-gap: 20px;
+}
+
+
+
+.link {
+    color: #fff;
+    transition: .5s;
+}
+
+.link:active {
+    color: var(--aqua);
 }
