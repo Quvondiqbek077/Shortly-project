@@ -1,0 +1,76 @@
+/* descktop */
+@media (max-width: 1440px) {
+    /*  */
+}
+@media (max-width: 1320px) {
+    .container{
+        max-width: 1320px;
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: auto;
+    }
+    
+
+}
+@media (max-width: 1290px) {
+    .container{
+        max-width: 1290px;
+        width: 100%;
+        margin: auto;
+    }
+    .media-image{
+        width: 500px;
+    }
+    .cards-line{
+        width: 900px;
+    }
+    .button{
+        margin-bottom: 50px;
+    }
+    .section-main{
+        top: 720px;
+    }
+  
+
+   
+}
+@media (max-width: 1170px) {
+    .media-image{
+        width: 450px;
+    }
+    .button{
+        margin-bottom: 80px;
+    }
+    .section-main{
+        position: absolute;
+        top: 880px;
+        background: #EFF1F7;
+        width: 100%;
+        z-index: -1;
+    }
+    }
+
+@media (max-width: 1140px) {
+
+}
+
+
+/* Tab */
+@media (max-width: 992px) {
+    .container{
+        max-width: 992px;
+        width: 100%;
+        margin: auto;
+    }
+}
+@media (max-width: 850px) {}
+/* Mobile */
+@media (max-width: 768px) {}
+@media (max-width: 684px) {}
+/* mobile < 576 */
+@media (max-width: 576px) {}
+@media (max-width: 480px) {}
+@media (max-width: 412px) {}
+@media (max-width: 375px) {}
+@media (max-width: 320px) {}

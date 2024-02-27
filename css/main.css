@@ -27,7 +27,8 @@ a {
 }
 
 .container {
-    width: 1440px;
+    max-width: 1440px;
+    width: 100%;
     padding-left: 165px;
     padding-right: 165px;
     margin: auto;
@@ -219,7 +220,7 @@ a {
 }
 
 /* Main section */
-.section-main {
+.section-main{
     position: absolute;
     top: 805px;
     background: #EFF1F7;
@@ -426,8 +427,6 @@ a {
     padding-left: 110px;
     column-gap: 20px;
 }
-
-
 
 .link {
     color: #fff;
